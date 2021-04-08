@@ -21,6 +21,7 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func btn_LoginTapped(_ sender: Any) {
+        checkNetworkAvailability()
         userLoginApiCall(username: "roykow11@mailinator.com", password: "123456")
     }
     
