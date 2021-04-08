@@ -16,27 +16,23 @@ class ApiManager: NSObject {
         "User-Agent": "IOS_APP",
         "Content-Type" : "application/x-www-form-urlencoded"
     ]
-
-   //MARK:-Login API Call
+    
+    //MARK:-Login API Call
     
     func userLogin(loginParams : [String: Any], completionHandler : @escaping(AnyObject)->() ) {
-        
         var headers: HTTPHeaders = [
             "User-Agent": "IOS_APP",
             "Accept": "application/json",
             "Content-Type" : "application/x-www-form-urlencoded"
         ]
-        
-        let url=Constants.BASEURL+"login"
+        let url = Constants.BASEURL+"login"
         print("url :-", url)
         print("login params = ", loginParams.keys)
-        sessionManager.request(url,method: .post,parameters: loginParams,encoding:URLEncoding.httpBody ,headers: headers).responseJSON(completionHandler: { response in
+        sessionManager.request(url,method: .post, parameters: loginParams, encoding:URLEncoding.httpBody, headers: headers).responseJSON(completionHandler: { response in
             let result = response.data
             let json:AnyObject! = JSON(result as Any).object as AnyObject
             completionHandler(json)
         })
     }
-    
-    
     
 }

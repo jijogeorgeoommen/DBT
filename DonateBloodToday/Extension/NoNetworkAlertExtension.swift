@@ -12,7 +12,7 @@ extension UIViewController {
     
     func ShowNoInternet() {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let secondViewController = storyboard.instantiateViewController(withIdentifier: "NoNetworkVC") as! NoNetworkVC
-       self.present(secondViewController, animated: true, completion: nil)
+        let noNetworkErrorViewController = storyboard.instantiateViewController(withIdentifier: "NoNetworkVC") as! NoNetworkVC
+       self.present(noNetworkErrorViewController, animated: true, completion: nil)
     }
 }

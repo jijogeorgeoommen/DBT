@@ -13,8 +13,6 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
     func checkNetworkAvailability() {
@@ -22,27 +20,19 @@ class LoginViewController: UIViewController {
         print("netWorkAvailable :", netWorkAvailable)
     }
     
-
     @IBAction func btn_LoginTapped(_ sender: Any) {
-      userLoginApiCall(username: "roykow11@mailinator.com", password: "123456")
+        userLoginApiCall(username: "roykow11@mailinator.com", password: "123456")
     }
     
-
     func userLoginApiCall(username:String,password:String) {
-        
         if netWorkAvailable {
-            
-        let params = ["email" : username, "password" : password, "ind_org" : 1, "current_location_lat" : "", "current_location_long" : ""] as [String : Any]
-        
-        ApiManager.shared.userLogin(loginParams: params) { (responseData) in
-            print("respData :",responseData)
-        }
-            
-        }
-        else {
+            let params = ["email" : username, "password" : password, "ind_org" : 1, "current_location_lat" : "", "current_location_long" : ""] as [String : Any]
+            ApiManager.shared.userLogin(loginParams: params) { (responseData) in
+                print("respData :",responseData)
+            }
+        } else {
             self.ShowNoInternet()
         }
     }
-    
     
 }
