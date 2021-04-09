@@ -13,6 +13,8 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationItem.title = "LOGIN"
+        navigationController?.navigationBar.isHidden = false
     }
     
     func checkNetworkAvailability() {

@@ -23,5 +23,9 @@ class LoginSelectionViewController: UIViewController {
         
     }
     
-
+    @IBAction func btn_SignUpTapped(_ sender: UIButton) {
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "SignUpViewController") as! SignUpViewController
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
 }
