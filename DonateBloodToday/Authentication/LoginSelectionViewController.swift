@@ -12,9 +12,16 @@ class LoginSelectionViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        navigationController?.navigationBar.isHidden = true
+       // navigationController?.navigationBar.isHidden = true
         
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        navigationController?.navigationBar.isHidden = true
+    }
+    
+    
     
 
     @IBAction func btn_LoginTapped(_ sender: UIButton) {
