@@ -8,6 +8,10 @@
 import UIKit
 
 class SeekHelpViewController: UIViewController {
+    
+    
+    @IBOutlet weak var img_Unchecked: UIImageView!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,4 +25,10 @@ class SeekHelpViewController: UIViewController {
         self.setTitle("Seek Help", andImage: UIImage(named: "logoRight")!)
     }
 
+    @IBAction func btn_ShareWithContactTapped(_ sender: UIButton) {
+        
+        print("Tapped")
+        img_Unchecked.image = UIImage(named: "checked")
+        
+    }
 }

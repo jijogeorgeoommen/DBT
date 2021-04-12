@@ -22,7 +22,7 @@ class ForgotPasswordViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
-        navigationItem.title = "Forgot Password"
+        self.setTitle("Forgot Password", andImage: UIImage(named: "logoRight")!)
         view_Email.layer.borderWidth = 1
         view_Email.layer.borderColor = #colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)
     }

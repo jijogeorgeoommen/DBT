@@ -28,8 +28,8 @@ class SignUpViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        self.navigationItem.title = "SIGN UP"
+        self.setTitle("Sign Up", andImage: UIImage(named: "logoRight")!)
+       
         navigationController?.navigationBar.isHidden = false
         viewSetup()
        
@@ -43,41 +43,7 @@ class SignUpViewController: UIViewController {
         img_ProfileImage.layer.cornerRadius = 40
         img_ProfileImage.layer.masksToBounds = true
         
-        view_Firstname.layer.borderWidth = 1
-        view_Firstname.layer.borderColor = #colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)
-        
-        view_Lastname.layer.borderWidth = 1
-        view_Lastname.layer.borderColor = #colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)
-        
-        view_BloodGroup.layer.borderWidth = 1
-        view_BloodGroup.layer.borderColor = #colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)
-        
-        view_PhoneNumber.layer.borderWidth = 1
-        view_PhoneNumber.layer.borderColor = #colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)
-        
-        view_Email.layer.borderWidth = 1
-        view_Email.layer.borderColor = #colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)
-        
-        view_Password.layer.borderWidth = 1
-        view_Password.layer.borderColor = #colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)
-        
-        view_selectCountry.layer.borderWidth = 1
-        view_selectCountry.layer.borderColor = #colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)
-        
-        view_SelectState.layer.borderWidth = 1
-        view_SelectState.layer.borderColor = #colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)
-        
-        view_SelectCity.layer.borderWidth = 1
-        view_SelectCity.layer.borderColor = #colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)
-        
-        view_DOB.layer.borderWidth = 1
-        view_DOB.layer.borderColor = #colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)
-        
-        view_LastDonated.layer.borderWidth = 1
-        view_LastDonated.layer.borderColor = #colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)
-        
-        view_verificationCode.layer.borderWidth = 1
-        view_verificationCode.layer.borderColor = #colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)
+
         
     }
     

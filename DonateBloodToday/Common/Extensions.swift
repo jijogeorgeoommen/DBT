@@ -20,4 +20,16 @@ extension UIViewController {
         titleView.spacing = 10.0
         navigationItem.titleView = titleView
     }
+    
+    
+    
+}
+
+extension UIViewController {
+    
+    func popalert(message : String, title : String){
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "ok", style: UIAlertAction.Style.default, handler: nil))
+        self.present(alert,animated: true,completion: nil)
+    }
 }
