@@ -141,6 +141,7 @@
 				0C56B535261F25C700A56994 /* Extension */,
 				0C56B531261F188900A56994 /* MapperClass */,
 				0C56B528261F17D900A56994 /* Constants */,
+				24C090F826241DA100A1BC13 /* SideMenu */,
 				0C56B4D9261F142000A56994 /* APIManager */,
 				0C56B4B7261EF25E00A56994 /* Authentication */,
 				0C56B481261EF1E900A56994 /* AppDelegate.swift */,
@@ -216,6 +217,13 @@
 				0C56B543261F378C00A56994 /* CheckReachability.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		24C090F826241DA100A1BC13 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SideMenu;
 			sourceTree = "<group>";
 		};
 		54A2D6A48AA29D8A107C70E3 /* Pods */ = {
