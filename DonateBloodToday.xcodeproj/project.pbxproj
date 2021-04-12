@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0C2A66CC2620178F00D109BD /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2A66CB2620178F00D109BD /* SignUpViewController.swift */; };
 		0C4068C0262417BF008501C2 /* SeekHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4068BF262417BF008501C2 /* SeekHelpViewController.swift */; };
+		0C4068C926241F2A008501C2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4068C826241F2A008501C2 /* Extensions.swift */; };
 		0C56B482261EF1E900A56994 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C56B481261EF1E900A56994 /* AppDelegate.swift */; };
 		0C56B484261EF1E900A56994 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C56B483261EF1E900A56994 /* SceneDelegate.swift */; };
 		0C56B486261EF1E900A56994 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C56B485261EF1E900A56994 /* ViewController.swift */; };
@@ -52,6 +53,7 @@
 		03755824E671D02BE5A424FE /* Pods-DonateBloodToday-DonateBloodTodayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonateBloodToday-DonateBloodTodayUITests.debug.xcconfig"; path = "Target Support Files/Pods-DonateBloodToday-DonateBloodTodayUITests/Pods-DonateBloodToday-DonateBloodTodayUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		0C2A66CB2620178F00D109BD /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		0C4068BF262417BF008501C2 /* SeekHelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeekHelpViewController.swift; sourceTree = "<group>"; };
+		0C4068C826241F2A008501C2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		0C56B47E261EF1E900A56994 /* DonateBloodToday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DonateBloodToday.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C56B481261EF1E900A56994 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C56B483261EF1E900A56994 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +115,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C4068C726241F03008501C2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0C4068C826241F2A008501C2 /* Extensions.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		0C56B475261EF1E900A56994 = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +148,7 @@
 		0C56B480261EF1E900A56994 /* DonateBloodToday */ = {
 			isa = PBXGroup;
 			children = (
+				0C4068C726241F03008501C2 /* Common */,
 				0C56B535261F25C700A56994 /* Extension */,
 				0C56B531261F188900A56994 /* MapperClass */,
 				0C56B528261F17D900A56994 /* Constants */,
@@ -497,6 +508,7 @@
 				0C2A66CC2620178F00D109BD /* SignUpViewController.swift in Sources */,
 				0C56B53F261F271500A56994 /* NoNetworkVC.swift in Sources */,
 				0C56B484261EF1E900A56994 /* SceneDelegate.swift in Sources */,
+				0C4068C926241F2A008501C2 /* Extensions.swift in Sources */,
 				0C56B522261F171200A56994 /* APIManager.swift in Sources */,
 				0CEA263626207E880008A8BB /* ForgotPasswordViewController.swift in Sources */,
 				0C56B544261F378C00A56994 /* CheckReachability.swift in Sources */,

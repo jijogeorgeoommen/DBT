@@ -35,4 +35,13 @@ class LoginSelectionViewController: UIViewController {
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
+    
+   
+    @IBAction func btn_callForHelpTapped(_ sender: UIButton) {
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "SeekHelpViewController") as! SeekHelpViewController
+        self.navigationController?.pushViewController(vc, animated: true)
+        
+    }
+    
+    
 }
