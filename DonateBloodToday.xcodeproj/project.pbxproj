@@ -27,6 +27,10 @@
 		0C56B53F261F271500A56994 /* NoNetworkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C56B53E261F271500A56994 /* NoNetworkVC.swift */; };
 		0C56B544261F378C00A56994 /* CheckReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C56B543261F378C00A56994 /* CheckReachability.swift */; };
 		0CEA263626207E880008A8BB /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA263526207E870008A8BB /* ForgotPasswordViewController.swift */; };
+		24C0910B2624229300A1BC13 /* DetailsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C0910A2624229300A1BC13 /* DetailsStoryboard.storyboard */; };
+		24C091152624295300A1BC13 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C091142624295300A1BC13 /* MessagesViewController.swift */; };
+		24C0911B26242A8000A1BC13 /* MessagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C0911A26242A8000A1BC13 /* MessagesTableViewCell.swift */; };
+		24C0912326242F8800A1BC13 /* SideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C0912226242F8800A1BC13 /* SideMenuNavigationController.swift */; };
 		83EFA2518CC53AD28BEB1928 /* Pods_DonateBloodTodayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BBC1DF15D424C0D29508245 /* Pods_DonateBloodTodayTests.framework */; };
 		9A33D593D669D0FE5197DF20 /* Pods_DonateBloodToday_DonateBloodTodayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50BA9703C2AC6DE1B2A3AFD /* Pods_DonateBloodToday_DonateBloodTodayUITests.framework */; };
 		B6804009C33B04AF04BCC24E /* Pods_DonateBloodToday.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 625FAF36BC4E524968CE90A1 /* Pods_DonateBloodToday.framework */; };
@@ -77,6 +81,10 @@
 		0C56B53E261F271500A56994 /* NoNetworkVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoNetworkVC.swift; sourceTree = "<group>"; };
 		0C56B543261F378C00A56994 /* CheckReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckReachability.swift; sourceTree = "<group>"; };
 		0CEA263526207E870008A8BB /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		24C0910A2624229300A1BC13 /* DetailsStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailsStoryboard.storyboard; sourceTree = "<group>"; };
+		24C091142624295300A1BC13 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		24C0911A26242A8000A1BC13 /* MessagesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesTableViewCell.swift; sourceTree = "<group>"; };
+		24C0912226242F8800A1BC13 /* SideMenuNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuNavigationController.swift; sourceTree = "<group>"; };
 		4557972F8DE1E5FB48A687AF /* Pods-DonateBloodToday.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonateBloodToday.debug.xcconfig"; path = "Target Support Files/Pods-DonateBloodToday/Pods-DonateBloodToday.debug.xcconfig"; sourceTree = "<group>"; };
 		531FA977B77C8DB1E9B72989 /* Pods-DonateBloodTodayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonateBloodTodayTests.debug.xcconfig"; path = "Target Support Files/Pods-DonateBloodTodayTests/Pods-DonateBloodTodayTests.debug.xcconfig"; sourceTree = "<group>"; };
 		625FAF36BC4E524968CE90A1 /* Pods_DonateBloodToday.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DonateBloodToday.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -233,8 +241,20 @@
 		24C090F826241DA100A1BC13 /* SideMenu */ = {
 			isa = PBXGroup;
 			children = (
+				24C0911926242A6A00A1BC13 /* TableViewCells */,
+				24C0910A2624229300A1BC13 /* DetailsStoryboard.storyboard */,
+				24C091142624295300A1BC13 /* MessagesViewController.swift */,
+				24C0912226242F8800A1BC13 /* SideMenuNavigationController.swift */,
 			);
 			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		24C0911926242A6A00A1BC13 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				24C0911A26242A8000A1BC13 /* MessagesTableViewCell.swift */,
+			);
+			path = TableViewCells;
 			sourceTree = "<group>";
 		};
 		54A2D6A48AA29D8A107C70E3 /* Pods */ = {
@@ -370,6 +390,7 @@
 			files = (
 				0C56B491261EF1EF00A56994 /* LaunchScreen.storyboard in Resources */,
 				0C56B48E261EF1EF00A56994 /* Assets.xcassets in Resources */,
+				24C0910B2624229300A1BC13 /* DetailsStoryboard.storyboard in Resources */,
 				0C56B489261EF1E900A56994 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -499,7 +520,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C56B4C4261F09FA00A56994 /* LoginViewController.swift in Sources */,
+				24C0912326242F8800A1BC13 /* SideMenuNavigationController.swift in Sources */,
 				0C56B4CC261F0CCB00A56994 /* LoginSelectionViewController.swift in Sources */,
+				24C0911B26242A8000A1BC13 /* MessagesTableViewCell.swift in Sources */,
 				0C56B486261EF1E900A56994 /* ViewController.swift in Sources */,
 				0C4068C0262417BF008501C2 /* SeekHelpViewController.swift in Sources */,
 				0C56B48C261EF1E900A56994 /* DonateBloodToday.xcdatamodeld in Sources */,
@@ -512,6 +535,7 @@
 				0C56B522261F171200A56994 /* APIManager.swift in Sources */,
 				0CEA263626207E880008A8BB /* ForgotPasswordViewController.swift in Sources */,
 				0C56B544261F378C00A56994 /* CheckReachability.swift in Sources */,
+				24C091152624295300A1BC13 /* MessagesViewController.swift in Sources */,
 				0C56B52A261F184A00A56994 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

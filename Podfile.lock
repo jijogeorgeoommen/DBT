@@ -1,6 +1,27 @@
 PODS:
   - Alamofire (5.4.2)
   - IQKeyboardManager (6.5.6)
+  - MaterialComponents/Availability (124.1.1)
+  - MaterialComponents/Elevation (124.1.1):
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/NavigationDrawer (124.1.1):
+    - MaterialComponents/Elevation
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MaterialComponents/private/UIMetrics
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/Palettes (124.1.1)
+  - MaterialComponents/private/Application (124.1.1)
+  - MaterialComponents/private/Color (124.1.1):
+    - MaterialComponents/Availability
+  - MaterialComponents/private/Math (124.1.1)
+  - MaterialComponents/private/UIMetrics (124.1.1):
+    - MaterialComponents/private/Application
+  - MaterialComponents/ShadowElevations (124.1.1)
+  - MaterialComponents/ShadowLayer (124.1.1):
+    - MaterialComponents/ShadowElevations
   - ObjectMapper (4.2.0)
   - ReachabilitySwift (5.0.0)
   - SDWebImage (5.11.0):
@@ -12,6 +33,7 @@ PODS:
 DEPENDENCIES:
   - Alamofire (~> 5.2)
   - IQKeyboardManager
+  - MaterialComponents/NavigationDrawer
   - ObjectMapper
   - ReachabilitySwift
   - SDWebImage
@@ -22,6 +44,7 @@ SPEC REPOS:
   trunk:
     - Alamofire
     - IQKeyboardManager
+    - MaterialComponents
     - ObjectMapper
     - ReachabilitySwift
     - SDWebImage
@@ -31,12 +54,13 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Alamofire: bfbc4c2fe5909b1d94fb4ef2277c6b3727ef5dae
   IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  MaterialComponents: b9f58f24bf74588a83b2dce05802a11aaed5257d
   ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
   ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
   SDWebImage: 7acbb57630ac7db4a495547fb73916ff3e432f6b
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
   Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
 
-PODFILE CHECKSUM: e5affe9b852856be23104d1cba9b0000621afebb
+PODFILE CHECKSUM: 377d83ca938274942644b4003e6f3974067580f0
 
 COCOAPODS: 1.10.1

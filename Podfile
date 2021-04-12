@@ -4,13 +4,15 @@
 target 'DonateBloodToday' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-pod 'Alamofire', '~> 5.2'
-pod 'IQKeyboardManager'
-pod 'SwiftyJSON'
-pod 'ObjectMapper'
-pod 'SDWebImage'
-pod 'ReachabilitySwift'
-pod 'Toast-Swift', '~> 5.0.0'
+  pod 'Alamofire', '~> 5.2'
+  pod 'IQKeyboardManager'
+  pod 'SwiftyJSON'
+  pod 'ObjectMapper'
+  pod 'SDWebImage'
+  pod 'ReachabilitySwift'
+  pod 'Toast-Swift', '~> 5.0.0'
+  pod 'MaterialComponents/NavigationDrawer'
+
   # Pods for DonateBloodToday
 
   target 'DonateBloodTodayTests' do
