@@ -22,6 +22,15 @@ class LoginViewController: UIViewController {
         print("netWorkAvailable :", netWorkAvailable)
     }
     
+    
+    @IBAction func btn_ForgotPasswordTapped(_ sender: UIButton) {
+        
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "ForgotPasswordViewController") as! ForgotPasswordViewController
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+   
+    
     @IBAction func btn_LoginTapped(_ sender: Any) {
         checkNetworkAvailability()
         userLoginApiCall(username: "roykow11@mailinator.com", password: "123456")

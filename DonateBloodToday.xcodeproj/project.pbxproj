@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0C2A66CC2620178F00D109BD /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2A66CB2620178F00D109BD /* SignUpViewController.swift */; };
+		0C4068C0262417BF008501C2 /* SeekHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4068BF262417BF008501C2 /* SeekHelpViewController.swift */; };
 		0C56B482261EF1E900A56994 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C56B481261EF1E900A56994 /* AppDelegate.swift */; };
 		0C56B484261EF1E900A56994 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C56B483261EF1E900A56994 /* SceneDelegate.swift */; };
 		0C56B486261EF1E900A56994 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C56B485261EF1E900A56994 /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 		0C56B537261F260900A56994 /* NoNetworkAlertExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C56B536261F260900A56994 /* NoNetworkAlertExtension.swift */; };
 		0C56B53F261F271500A56994 /* NoNetworkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C56B53E261F271500A56994 /* NoNetworkVC.swift */; };
 		0C56B544261F378C00A56994 /* CheckReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C56B543261F378C00A56994 /* CheckReachability.swift */; };
+		0CEA263626207E880008A8BB /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA263526207E870008A8BB /* ForgotPasswordViewController.swift */; };
 		83EFA2518CC53AD28BEB1928 /* Pods_DonateBloodTodayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BBC1DF15D424C0D29508245 /* Pods_DonateBloodTodayTests.framework */; };
 		9A33D593D669D0FE5197DF20 /* Pods_DonateBloodToday_DonateBloodTodayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50BA9703C2AC6DE1B2A3AFD /* Pods_DonateBloodToday_DonateBloodTodayUITests.framework */; };
 		B6804009C33B04AF04BCC24E /* Pods_DonateBloodToday.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 625FAF36BC4E524968CE90A1 /* Pods_DonateBloodToday.framework */; };
@@ -49,6 +51,7 @@
 /* Begin PBXFileReference section */
 		03755824E671D02BE5A424FE /* Pods-DonateBloodToday-DonateBloodTodayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonateBloodToday-DonateBloodTodayUITests.debug.xcconfig"; path = "Target Support Files/Pods-DonateBloodToday-DonateBloodTodayUITests/Pods-DonateBloodToday-DonateBloodTodayUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		0C2A66CB2620178F00D109BD /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		0C4068BF262417BF008501C2 /* SeekHelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeekHelpViewController.swift; sourceTree = "<group>"; };
 		0C56B47E261EF1E900A56994 /* DonateBloodToday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DonateBloodToday.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C56B481261EF1E900A56994 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C56B483261EF1E900A56994 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +74,7 @@
 		0C56B536261F260900A56994 /* NoNetworkAlertExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoNetworkAlertExtension.swift; sourceTree = "<group>"; };
 		0C56B53E261F271500A56994 /* NoNetworkVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoNetworkVC.swift; sourceTree = "<group>"; };
 		0C56B543261F378C00A56994 /* CheckReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckReachability.swift; sourceTree = "<group>"; };
+		0CEA263526207E870008A8BB /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		4557972F8DE1E5FB48A687AF /* Pods-DonateBloodToday.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonateBloodToday.debug.xcconfig"; path = "Target Support Files/Pods-DonateBloodToday/Pods-DonateBloodToday.debug.xcconfig"; sourceTree = "<group>"; };
 		531FA977B77C8DB1E9B72989 /* Pods-DonateBloodTodayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonateBloodTodayTests.debug.xcconfig"; path = "Target Support Files/Pods-DonateBloodTodayTests/Pods-DonateBloodTodayTests.debug.xcconfig"; sourceTree = "<group>"; };
 		625FAF36BC4E524968CE90A1 /* Pods_DonateBloodToday.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DonateBloodToday.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -172,6 +176,8 @@
 			isa = PBXGroup;
 			children = (
 				0C56B487261EF1E900A56994 /* Main.storyboard */,
+				0C4068BF262417BF008501C2 /* SeekHelpViewController.swift */,
+				0CEA263526207E870008A8BB /* ForgotPasswordViewController.swift */,
 				0C2A66CB2620178F00D109BD /* SignUpViewController.swift */,
 				0C56B53E261F271500A56994 /* NoNetworkVC.swift */,
 				0C56B4C3261F09FA00A56994 /* LoginViewController.swift */,
@@ -476,6 +482,7 @@
 				0C56B4C4261F09FA00A56994 /* LoginViewController.swift in Sources */,
 				0C56B4CC261F0CCB00A56994 /* LoginSelectionViewController.swift in Sources */,
 				0C56B486261EF1E900A56994 /* ViewController.swift in Sources */,
+				0C4068C0262417BF008501C2 /* SeekHelpViewController.swift in Sources */,
 				0C56B48C261EF1E900A56994 /* DonateBloodToday.xcdatamodeld in Sources */,
 				0C56B537261F260900A56994 /* NoNetworkAlertExtension.swift in Sources */,
 				0C56B482261EF1E900A56994 /* AppDelegate.swift in Sources */,
@@ -483,6 +490,7 @@
 				0C56B53F261F271500A56994 /* NoNetworkVC.swift in Sources */,
 				0C56B484261EF1E900A56994 /* SceneDelegate.swift in Sources */,
 				0C56B522261F171200A56994 /* APIManager.swift in Sources */,
+				0CEA263626207E880008A8BB /* ForgotPasswordViewController.swift in Sources */,
 				0C56B544261F378C00A56994 /* CheckReachability.swift in Sources */,
 				0C56B52A261F184A00A56994 /* Constants.swift in Sources */,
 			);
